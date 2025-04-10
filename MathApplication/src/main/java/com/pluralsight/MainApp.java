@@ -4,10 +4,13 @@ package com.pluralsight;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class MainApp {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        int bobSalary = 10000;
+        int garySalary = 20000;
+        double highestSalary = Math.max(bobSalary, garySalary);
+        System.out.println("The highest salary is $" + highestSalary);
 
-        
+
+
+
     }
 }

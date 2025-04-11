@@ -4,6 +4,13 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        System.out.print("Please enter if you want loaded sandwich (Enter yes, Enter no):");
+        input.nextLine();
+        String loadedResponse = input.nextLine().trim().toLowerCase();
+        boolean isLoaded = loaded.equals("yes");
+        if (if isLoaded) {
+            basePrice 
+        }
         Scanner waiter = new Scanner(System.in);
         float regularSize = 5.45f;
         float largeSize = 8.95f;
